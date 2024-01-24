@@ -21,7 +21,7 @@ def Messages(query):
     #if 'choices' in response: 
         #if (len(response.choices)>0):
     answer = response.choices[0].text
-  return answer
+    return answer
     #print(answer)
 
 query = st.text_input("Enter something in prompt : ")
